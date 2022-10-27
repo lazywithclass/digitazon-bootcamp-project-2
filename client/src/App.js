@@ -1,10 +1,8 @@
 import './App.css';
 import Mouse from './components/Mouse'
 import Show from './components/Show'
-import h337 from 'heatmap.js'
 
 function App() {
-  console.log(h337)
   return (
     <div className="App">
       <header className="App-header">
@@ -16,7 +14,7 @@ function App() {
           </ul>
         </p>
         <Mouse />
-        <Show h337={h337} />
+        <Show />
       </header>
     </div>
   );

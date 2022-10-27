@@ -22,7 +22,6 @@ export default function Show(props) {
     setPositions(pos)
 
     pos.map((p) => {
-      console.log(p)
       ctx.fillRect(p.x / 5, p.y / 5, 1, 1)
     })
   }

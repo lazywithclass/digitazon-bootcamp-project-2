@@ -5,7 +5,6 @@ export default function Mouse(props) {
   let [position, setPosition] = useState({})
 
   document.onmousemove = event => {
-    console.log({x: event.pageX, y: event.pageY})
     setPosition({x: event.pageX, y: event.pageY})
   }
 
